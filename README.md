@@ -1,3 +1,25 @@
+# Habit Tracking Application
+
+This project is a habit tracking application built with a modern frontend stack: React, TypeScript, and Vite. It's designed to help you build and maintain good habits.
+
+This project is configured with `rolldown-vite` for an optimized build process and development server.
+
+## Features
+
+- **React 19**: For building a dynamic and responsive user interface.
+- **TypeScript**: For robust, type-safe code.
+- **Vite (with `rolldown-vite`)**: For a lightning-fast development experience and optimized builds.
+- **ESLint**: To ensure code quality and consistency.
+- **Habit Dashboard**: A central place to view and manage your habits.
+
+## Getting Started
+
+To get started with this project, clone the repository and install the dependencies.
+
+```bash
+npm install
+```
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
