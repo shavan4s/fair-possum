@@ -1,10 +1,7 @@
-function App() {
+import Layout from './components/Layout/Layout';
 
-  return (
-    <div>
-      <h1>Atomic Habits Dashboard</h1>
-    </div>
-  );
+function App() {
+  return <Layout />;
 }
 
 export default App;

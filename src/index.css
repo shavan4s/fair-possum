@@ -1,58 +1,63 @@
-/*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  -moz-osx-font-smoothing: grayscale;
-}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* ... existing code */
 
-html {
-  font-size: 62.5%; /* 1rem = 10px */
-}
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -moz-osx-font-smoothing: grayscale;
+  }
 
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
+  html {
+    font-size: 62.5%; /* 1rem = 10px */
+  }
 
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
+  img,
+  picture,
+  video,
+  canvas,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
 
-a {
-  font-weight: 500;
-  min-height: 100vh;
-}
+  input,
+  button,
+  textarea,
+  select {
+    font: inherit;
+  }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  text-wrap: balance;
-}
+  a {
+    font-weight: 500;
+    min-height: 100vh;
+  }
 
-p {
-  text-wrap: pretty;
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-wrap: balance;
+  }
 
-h1 {
-  font-size: 3.2rem;
-  line-height: 1.1;
-}
+  p {
+    text-wrap: pretty;
+  }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  h1 {
+    font-size: 3.2rem;
+    line-height: 1.1;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
 }
